@@ -8,6 +8,7 @@
   const box = document.getElementById('box');
   
   speech.lang = "ja-JP";
+  ｓpeech.continuous = true;
   start_btn.addEventListener('click', () => {
     start_btn.disabled = true;
     stop_btn.disabled = false;
